@@ -56,3 +56,16 @@ SOLID Principles: La palabra SOLID es un acrónimo y cada una de sus letras repr
 
 S Single Responsability: Buscamos que una clase tenga una sola responsabilidad.
 O Open/Closed Principle: “Las entidades: clases, módulos, interfaces, etc. Deben estar abiertas por extensión pero cerradas para modificación”. Utilizar interfaces en este principio es de las mejores prácticas, buscamos que las funcionalidades de una entidad estén separadas y los parámetros o atributos también estén separados.
+
+SOLID: Liskov substitution, Interface segregation y Dependency Inversion principle
+Vamos a seguir revisando los siguientes elementos de SOLID Principles
+
+L Liskov Substitution: Deberíamos poder usar una clase hija para sustituir a una clase padre sin obtener errores.
+I Interface segregation: Si una interfaz crece demasiado pierde su objetivo y viola el primer principio.
+D Dependency Inversion: Depende de una abstracción, no de algo concreto.
+
+Liskov Substitution: Por ejemplo, cuando creamos una array, en Java sería List<Integer> nums = new ArrayList<>();. ArrayList implementa List (una interfaz o padre), por lo tanto al llamar los metodos de list estaremos llamando a los metodos implementados en ArrayList.
+
+Interface segregation: Por ejemplo, una interfaz ‘Television’ no debería tener un método llamado ‘transmitirEn(Laptop)’.
+
+Dependency Inversion: Por ejemplo, en vez enviar por parámetro un objeto específico (ej: new Corporacion(Ingeniero ing) ), debemos enviar un objeto más abstracto para que nuestra funcionalidad no este conectada a un tipo específico ya que esto puede causar problemas a la hora de arreglar bugs o añadir más features.
