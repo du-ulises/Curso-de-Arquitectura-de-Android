@@ -50,3 +50,9 @@ En conclusión la Arquitectura de Diseño:
 Organiza el código para trabajar en equipo.
 Hace el código más intuitivo de leer y escribir.
 Permite mantener, testear e integrar nuevos features más rápido y fácil.
+
+SOLID: Single Responsability y Open/Closed Principles
+SOLID Principles: La palabra SOLID es un acrónimo y cada una de sus letras representa un principio. Básicamente es un set de diseño que en general es de lo más popular a la hora de implementar una arquitectura en nuestro proyectos
+
+S Single Responsability: Buscamos que una clase tenga una sola responsabilidad.
+O Open/Closed Principle: “Las entidades: clases, módulos, interfaces, etc. Deben estar abiertas por extensión pero cerradas para modificación”. Utilizar interfaces en este principio es de las mejores prácticas, buscamos que las funcionalidades de una entidad estén separadas y los parámetros o atributos también estén separados.
