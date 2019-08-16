@@ -1,0 +1,11 @@
+Arquitectura en Android
+Las aplicaciones móviles han dejado de ser simples y esto es porque proyectos más robustos nacen de la idea de Mobile First. Por lo general este tipo de proyectos grandes tienen la limitante del tiempo de desarrollo y lo mágico comienza a convertirse en una pesadilla.
+
+Deuda Técnica: Es ese esfuerzo adicional causado por la elección de un desarrollo sencillo. Un desarrollo que no tiene una estructura pensada y analizada, no tiene una arquitectura adecuada al objetivo del proyecto.
+
+Las aplicaciones móviles en general nos exigen mucho, los usuarios nos exigen que la aplicación sea:
+
+Rápida
+Fluida
+Segura
+Mantenible
